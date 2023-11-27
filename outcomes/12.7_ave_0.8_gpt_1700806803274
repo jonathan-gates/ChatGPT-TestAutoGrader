@@ -1,0 +1,8 @@
+GPT Answered: 
+Push and pop: Correct
+Push, Pop, isEmpty, isFull: Incorrect
+Maybe List to show all elements or an operation to count how many elements in the stack: Incorrect
+Push, Pop: Correct
+
+Expected: 
+['correct', 'correct']

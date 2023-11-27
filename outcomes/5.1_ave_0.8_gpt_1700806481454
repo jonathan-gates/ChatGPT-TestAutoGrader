@@ -1,0 +1,6 @@
+GPT Answered: 
+1st sentence: Correct
+2nd sentence: Incorrect
+
+Expected: 
+['incorrect', 'incorrect']

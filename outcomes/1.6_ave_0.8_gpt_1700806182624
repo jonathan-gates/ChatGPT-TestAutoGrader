@@ -1,0 +1,9 @@
+GPT Answered: 
+In the Function main() before using the variable: Incorrect
+Inside the method: Correct
+Variables are usually declared at the very beginning of a C++ program, but can be declared any in the program as long as they appear before they are called upon: Incorrect
+Variables are declared in the main function, before any operation is attempted with the variables: Incorrect
+It depends if itâ€™s a global then they have to be declared out side the source code to be used in every scope however a local variable is one declared in a local function etc. which obviously doesnâ€™t need to be declared outside the variable seeing how it is used for the function or block its being called for: Correct.
+
+Expected: 
+['incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect']

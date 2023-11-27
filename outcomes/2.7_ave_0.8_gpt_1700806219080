@@ -1,0 +1,9 @@
+GPT Answered: 
+Header files separate files in which classes are defined and allow the compiler to recognize classes when used elsewhere. - Correct
+A header file allows for the separation of declaration and implementation into separate files. - Correct
+â€œInstructâ€ the compiler on how to interface with library and user-written components. - Correct
+to declare the functions being used in the classes - Correct
+A header file usually contains class and/or function prototypes. - Correct
+
+Expected: 
+['incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect']

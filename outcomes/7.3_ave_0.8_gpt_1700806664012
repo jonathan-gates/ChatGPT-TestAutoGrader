@@ -1,0 +1,9 @@
+GPT Answered: 
+Arrays are easier to implement and require less memory - Incorrect
+Arrays, being fixed, are less error prone - Correct
+Array items are accessed directly with equal access time - Correct
+Array-based implementations require less memory than a pointer-based ones - Incorrect
+You can go up and down an array , but you can only go one direction while traversing a linked list - Correct
+
+Expected: 
+['incorrect', 'incorrect', 'correct', 'incorrect', 'incorrect']

@@ -1,0 +1,11 @@
+GPT Answered: 
+1. Incorrect
+2. Correct
+3. Incorrect
+4. Incorrect
+5. Correct
+6. Incorrect
+7. Correct
+
+Expected: 
+['incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect']

@@ -1,0 +1,7 @@
+GPT Answered: 
+by reference only - correct
+you pass a pointer to the first item and also pass the size. - correct
+function( int [], int length) - correct
+
+Expected: 
+['correct', 'incorrect', 'incorrect']
