@@ -94,7 +94,7 @@ file_names = os.listdir('data/raw')
 file_names.sort()
 file_names = file_names[:-3] # remove the last 3 files (all, answers, questions)
 file_names.sort(key=lambda x: float(x.split('.')[0]) + float(x.split('.')[1])/10) # sort by section number
-for section in file_names:
+# for section in file_names:
     # run_section(section, score_type) # call for ChatGPT
     # time.sleep(1)
 
