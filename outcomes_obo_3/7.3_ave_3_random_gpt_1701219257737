@@ -1,0 +1,5 @@
+GPT Answered: 
+['Correct\n', 'Correct\n', 'Correct\n', 'Correct\n', 'Incorrect\n', 'Incorrect\n', 'Incorrect\n', 'Correct\n', 'Incorrect\n', 'Incorrect\n', 'Incorrect\n', 'Correct\n', 'Correct\n', 'Incorrect\n', 'Correct\n', 'Correct\n', 'Correct\n', 'Incorrect\n', 'Incorrect\n', 'Correct\n']
+
+Expected: 
+['correct', 'correct', 'correct', 'correct', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'correct', 'correct', 'incorrect', 'correct', 'incorrect', 'correct', 'incorrect', 'incorrect', 'correct']

@@ -1,0 +1,12 @@
+GPT Answered: 
+by reference only - correct
+-Arrays are passed by reference - correct
+-Individual array elements passed by value - correct
+-Functions that take arrays as arguments - correct
+-Function prototypes may include parameter names - correct
+-const array parameters - correct
+the same way but with [] at the declaration and the actual function - incorrect
+specify the array name without brackets - correct
+
+Expected: 
+['correct', 'correct', 'incorrect', 'incorrect']

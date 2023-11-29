@@ -1,3 +1,6 @@
+import os
+
+
 def getData(section, score_type):
     data = []
     with open('data/raw/' + section) as f:
@@ -27,4 +30,12 @@ def getQuestion(section):
                 # remove ' <STOP>' at the end
                 question = question[:-7]
                 return question
+            
+def getSections():
+    section_names = os.listdir('data/raw')
+    section_names.sort()
+    section_names = section_names[:-3] # remove the last 3 files (all, answers, questions)
+    section_names.sort(key=lambda x: float(x.split('.')[0]) + float(x.split('.')[1])/10) # sort by section number
+    section_names = [file for file in section_names if file != '4.1' and file != '6.1'] # remove byte files
+    return section_names
 

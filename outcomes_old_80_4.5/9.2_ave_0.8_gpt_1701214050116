@@ -1,0 +1,8 @@
+GPT Answered: 
+enque ( Data ), Deque ( ) - Incorrect
+The two functions are, Enqueue and Dequeue - Correct
+enqueue, dequeue - Correct
+enqueuedequeue - Incorrect
+
+Expected: 
+['correct', 'correct', 'correct', 'correct']

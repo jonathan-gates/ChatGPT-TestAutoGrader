@@ -1,0 +1,11 @@
+GPT Answered: 
+In postfix notation - incorrect
+they are converted to postfix - correct
+They are first converted into an equivalent postfix expression so it can be read by the computer - correct
+by being passed to the function by a leading term - incorrect
+The infix expression is converted to postfix form - correct
+infix expressions are converted to postfix, (i.e. 3+2 is changed to 32+) - correct
+they are transformed into post-fix expressions, then evaluated with a stack - correct
+
+Expected: 
+['incorrect', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'correct']

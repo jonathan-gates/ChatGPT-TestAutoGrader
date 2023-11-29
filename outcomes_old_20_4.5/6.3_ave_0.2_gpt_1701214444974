@@ -1,0 +1,25 @@
+GPT Answered: 
+returns a synonym for the object to which its pointer operand points. - Correct
+The star operator returns a synonym for the object to which its pointer operand points. - Correct
+Returns synonym for the object its operand points to. - Correct
+It returns a synonym, alias or nickname of the name of the object that its operand points to in memory (dereferencing the pointer). - Correct
+Returns an alias/nickname for the object to which the pointer operand points. - Correct
+the * operator returns the value in the memory address the element points to. - Incorrect
+The * returns the value - Incorrect
+The * operator returns the dereferenced pointer variable (ie: it returns the value of whatever variable the pointer is pointing to) - Incorrect
+The dereferencing operator returns the dereferenced object. - Incorrect
+* returns the synonym for the object its operand points to. - Correct
+The star operator returns the object at that memory location. - Incorrect
+The * operator returns the value of the object's memory address it precedes. - Incorrect
+The value of the object that the operand points to - Incorrect
+The value stored in the object being pointed to. - Incorrect
+synonym for the object its operand points to - Correct
+Returns synonym for the object its operand points to - Correct
+It dereferences a pointer, meaning it returns the value stored in the memory address a pointer refers to. - Incorrect
+It is unary operator that returns the value of the variable located at the address - Incorrect
+a reference to a = variable - Incorrect
+it returns the actual data at the address pointed to - Incorrect
+will return zero or many characters placed before the operator - Incorrect
+
+Expected: 
+['correct', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'incorrect', 'correct', 'correct', 'correct', 'incorrect', 'incorrect', 'correct', 'incorrect', 'correct', 'correct', 'correct', 'incorrect', 'incorrect', 'incorrect', 'incorrect']

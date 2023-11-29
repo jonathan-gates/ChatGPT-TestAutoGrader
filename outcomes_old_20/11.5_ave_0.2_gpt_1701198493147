@@ -1,0 +1,34 @@
+GPT Answered: 
+1. Incorrect
+2. Incorrect
+3. Incorrect
+4. Incorrect
+5. Incorrect
+6. Incorrect
+7. Incorrect
+8. Incorrect
+9. Incorrect
+10. Incorrect
+11. Correct
+12. Correct
+13. Correct
+14. Correct
+15. Incorrect
+16. Incorrect
+17. Incorrect
+18. Incorrect
+19. Incorrect
+20. Correct
+21. Incorrect
+22. Incorrect
+23. Incorrect
+24. Correct
+25. Correct
+26. Correct
+27. Correct
+28. Incorrect
+29. Incorrect
+30. Incorrect.
+
+Expected: 
+['correct', 'incorrect', 'incorrect', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'incorrect', 'correct', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'correct', 'correct']

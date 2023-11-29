@@ -1,0 +1,19 @@
+GPT Answered: 
+public: the function or variable can be used outside the classprivate: the function or variable can only be used with the class - Correct
+
+Public and Private - Correct
+
+public private and protected - Correct
+
+public , private, protected - Correct
+
+public and private - Correct
+
+public, private, protected - Correct
+
+functions and data members can be given access-specifications of public, private, and friend. public access is given to any functions or members not given specific access rights. - Incorrect
+
+data member or data functions are access specifiers - Incorrect
+
+Expected: 
+['correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'incorrect']

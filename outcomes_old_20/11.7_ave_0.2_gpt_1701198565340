@@ -1,0 +1,28 @@
+GPT Answered: 
+The array that is declared static retains its modified elements so once it is called upon again the latest elements are modified again.  An array that is not declared static will keep its original elements. - correct
+A static array only has a specific size and it cannot grow. Also static arrays cannot be accessed outside the program which created it. - correct
+Arrays declared as static are not created and initialized when a function is called and destroyed when the function terminates. - correct
+Static can be initialized and non-static cannot in C++. - incorrect
+a static array will be called only once. once it has been declared the complier will ignore the static line if it comes to it again. - incorrect
+The static array will be available to the whole of the program, whereas an array that is not static is only available within the scope in which it is declared. - incorrect
+a static array has a predetermined size and that size cannot be altered - correct
+an array that is declared as static will retain the values stored in it's elements between function calls, and will not reinitialize them to default values. - correct
+A static array will have a null character at the end of the array. - incorrect
+static arrays cannot be changed while normal arrays can be changed - incorrect
+An array they is declared as static can be accessed outside of the method it was declared without passing it as an argument to other functions in the same class. - incorrect
+A static array has class scope, allowing it to remain where other arrays might be recycled. - correct
+An array that is static does not change or uninitialize if called later unless explicitly acted upon.  It does not terminate or change across objects.An automatic local array will be cleared and uninitialized if called later outside of it's specific scope. - correct
+one declared as static is one that is already defined. The program knows the length and the array from the start, whereas non-static arrays are declared or assigned later. - incorrect
+a non static array must reinitialize itself every function call, while a static array will only initialize itself once, unless otherwise forced. - correct
+A static array retains any modified values after a function call.Automatic arrays reset to their initial values when the function ends. - correct
+an array that is declared as static can only be used in the function that its being called in. Its a constant array. Static is another way of say const. - incorrect
+Values in an array that is not delcared as static will remain constant.  When an array is declared const values within the array can be manipulated. - incorrect
+the data of a static array cannot be changed - incorrect
+Standard arrays terminate when the functions that call them finish.A static array is not removed from memory when it's parent function terminates, leaving it available for other functions (or new instances of the original function). - correct
+by defining static array it doese not lose scope in locala function. static array makes programm more scalable.non static array lose scope inside the local function. - correct
+static arrays can be called from anywhere - incorrect
+a static array can be can be edited throughout the program, while a non-static array can only be edited within a given function - incorrect
+static has a predetermined size that cannot be passed while vis versa. - incorrect
+
+Expected: 
+['correct', 'incorrect', 'correct', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'correct', 'incorrect', 'correct', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect']

@@ -1,0 +1,18 @@
+GPT Answered: 
+incorrect
+incorrect
+correct
+correct
+correct
+correct
+correct
+correct
+incorrect
+correct
+correct
+incorrect
+correct
+correct
+
+Expected: 
+['incorrect', 'incorrect', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'incorrect', 'correct', 'correct']

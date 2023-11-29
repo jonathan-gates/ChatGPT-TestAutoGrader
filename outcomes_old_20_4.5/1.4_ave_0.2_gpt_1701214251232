@@ -1,0 +1,28 @@
+GPT Answered: 
+At function â€˜int main ()â€™ - Incorrect
+c++ programs begin to execute in the main method. - Incorrect
+A C++ program will begin to execute at the main() function. - Incorrect
+They begin in the main() function. - Incorrect
+main method - Incorrect
+in the testing phase - Incorrect
+-At the MAIN function - Incorrect
+main - Incorrect
+They begin to execute at the funcion main(). - Incorrect
+The main method. - Incorrect
+At the root - Incorrect
+In the main() function. - Incorrect
+C++ programs begin execution at main. - Incorrect
+In the Main function..? - Incorrect
+The main function. - Incorrect
+The function main - Incorrect
+After loading the required include statements and libraries, the main method begins the execution. - Incorrect
+main function - Incorrect
+C++ programs begin execution at the main function. - Incorrect
+At main - Incorrect
+they beging to excute at main - Incorrect
+at the main functionint main() {} - Incorrect
+in the "main" function - Incorrect
+Within the main function - Incorrect
+
+Expected: 
+['correct', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct']

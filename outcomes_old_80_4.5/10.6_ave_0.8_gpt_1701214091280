@@ -1,0 +1,23 @@
+GPT Answered: 
+Its used to visit nodes of a binary search tree in a search key order. - Incorrect
+
+printing a tree in order from least to greatest. This done by going as far left down the tree as possible and printing the parent and then right tree. Then move up the tree. - Correct
+
+Inorder traversal of a binary tree will retrieve start at the furthest left hand leaf and checks it, itâ€™s parent, and itâ€™s right side sibling, then it goes up a level and repeats until it gets to the root. - Correct
+
+traverse the left subtree. visit the root. traverse the right subtree. - Correct
+
+in order starts with the root then does right child then left child recursively - Incorrect
+
+Left Child -&gt; Parent -&gt; Right Child - Correct
+
+starting by displaying the node furthest to the right, then  the node, then the node on the right, in recursive order. - Incorrect
+
+left middle right - Correct
+
+you would go to the furthest down left most node, then to the root then to the right (if left and right exist) then you would return one node previous and do the same until you reached the root, then go to the furthest down left most node on the right side of the root and continue this process - Correct
+
+it means that you traverse one subtree of a node, then look at the node itself before traversing the other subtree of the node - Correct
+
+Expected: 
+['incorrect', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'incorrect', 'correct', 'correct', 'incorrect']

@@ -1,0 +1,12 @@
+GPT Answered: 
+At function â€˜int main ()â€™ - Correct
+A C++ program will begin to execute at the main() function. - Correct
+in the testing phase - Incorrect
+In the Main function..? - Correct
+The main function. - Correct
+The function main - Correct
+C++ programs begin execution at the main function. - Correct
+Within the main function - Correct
+
+Expected: 
+['correct', 'correct', 'incorrect', 'correct', 'correct', 'correct', 'correct', 'correct']

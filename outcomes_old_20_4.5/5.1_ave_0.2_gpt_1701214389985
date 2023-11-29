@@ -1,0 +1,36 @@
+GPT Answered: 
+Incorrect
+Correct
+Correct
+Correct
+Incorrect
+Correct
+Correct
+Correct
+Correct
+Correct
+Incorrect
+Correct
+Incorrect
+Correct
+Correct
+Correct
+Correct
+Correct
+Correct
+Correct
+Incorrect
+Correct
+Correct
+Correct
+Correct
+Correct
+Correct
+Correct
+Correct
+Correct
+Correct
+Correct
+
+Expected: 
+['incorrect', 'correct', 'incorrect', 'correct', 'incorrect', 'correct', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'incorrect', 'correct', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'incorrect']

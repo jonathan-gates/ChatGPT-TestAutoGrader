@@ -1,0 +1,7 @@
+GPT Answered: 
+use the add function with a list as the beginning of the stack and remove for pop: Correct
+A singly linked list can already be easily used for LIFO data storage. Members of a stack can simply be pushed and popped from a list, the first item in will be the last out: Correct
+using linked list, you are pushing the node that contains each int to the stack until you get to the end of your linked list: Correct
+
+Expected: 
+['incorrect', 'incorrect', 'incorrect']

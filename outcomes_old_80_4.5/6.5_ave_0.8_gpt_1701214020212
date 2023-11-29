@@ -1,0 +1,15 @@
+GPT Answered: 
+The sizeof operator returns the size of the operand. - Correct
+It returns the size of an array in bytes. - Correct
+it returns the size of the argument passed in - Correct
+sizeof returns the size of the operand in bytes. - Correct
+the size of the information in bits. - Incorrect
+The sizeof operator returns the total number of bytes of its operand. - Correct
+the size in bytes needed to store the object in memory - Incorrect
+the size of the list object. - Incorrect
+Return size of operand in bytes - Correct
+the total number of bytes of an object. - Correct
+it yields the size in bytes of the operand, which can be an expression or the parenthesized name of a type - Correct
+
+Expected: 
+['incorrect', 'correct', 'incorrect', 'correct', 'incorrect', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'incorrect']

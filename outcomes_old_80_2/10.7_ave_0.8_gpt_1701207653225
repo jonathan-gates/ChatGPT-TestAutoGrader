@@ -1,0 +1,11 @@
+GPT Answered: 
+Log(n) - Correct
+O(log n) - Correct
+O(nlog(n)) - Incorrect
+At the minimum log(n)/log(2), at the maximum N searches, where N is the number of nodes. - Incorrect
+O(n) - Incorrect
+log (n)   where n equals the number of nodes. - Correct
+2 way key comparison - Incorrect
+
+Expected: 
+['correct', 'correct', 'incorrect', 'incorrect', 'incorrect', 'correct', 'incorrect']

@@ -1,0 +1,26 @@
+GPT Answered: 
+This operator returns the memory address of its operand - Correct
+The address operator returns the memory address of its operand - Correct
+The address (&) operator returns the memory address of its operand -Correct
+Returns the memory address of its operand - Correct
+returns the place in memory of that element - Correct
+The address of the where the data is stored:&b will return the address of b - Correct
+The & operator returns the address of a variable 
+- Correct
+the ampersand (&) means "pass by reference". When the function is called, a pointer to the variable, instead of the variable itself, will be passed into the function - Incorrect
+& returns the memory address of its operand - Correct
+the address of the variable in memory - Correct
+Returns the address location in memory of the item. - Correct
+The & operator returns the memory address of the variable it precedes - Correct 
+The memory address of operand, 0x000000 or something along those lines - Correct 
+The object's memory address - Correct
+the reference to a variable - Incorrect
+returns the memory address of its operand - Correct
+memory address of its operand - Correct
+The & is a unary operator that returns the memory address of its operand - Correct 
+the address of the variable it is attached to - Correct 
+the memory address of its operand - Correct 
+returns a pointer - Incorrect.
+
+Expected: 
+['correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'incorrect']

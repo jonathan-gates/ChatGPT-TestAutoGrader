@@ -1,0 +1,11 @@
+GPT Answered: 
+not answered: incorrect
+Oposite of a theoretical assessment of the algorithm to determine runtime, but to run the code first to determine the the runtime.  This is not recommended because it is a limited test.  It does not include all possibilities of the data, nor the hardware used to process the data.: incorrect
+The experimental approach for measuring the running time is by using the Big O equation which tells you the running time.: incorrect
+You create and run  the algorithm multiple times, while measuring the amount of time it takes, you then average the results.: correct
+Running the program with various input data and measuring the running time with system time.: incorrect
+running an algorithm on a specific set of data: correct
+trying it with different sets of inputs, and measuring the amount of time that the algorithm actually takes.: correct
+
+Expected: 
+['incorrect', 'incorrect', 'incorrect', 'correct', 'correct', 'incorrect', 'correct']

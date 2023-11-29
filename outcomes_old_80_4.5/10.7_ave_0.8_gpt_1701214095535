@@ -1,0 +1,11 @@
+GPT Answered: 
+In a binary search tree of size 'n' it takes log(n) comparisons to find a specified element. - Correct
+
+Log(n) - Correct
+
+O(log n) - Correct
+
+(n^k)-1 where k is the height of the tree - Incorrect
+
+Expected: 
+['correct', 'correct', 'correct', 'incorrect']

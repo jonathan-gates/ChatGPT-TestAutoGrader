@@ -1,0 +1,8 @@
+GPT Answered: 
+A new item to the tree--a child: Incorrect
+The last child on any branch: Correct
+A node with degree 0: Incorrect
+Last node in the tree and furthest away from the root: Correct
+
+Expected: 
+['incorrect', 'incorrect', 'incorrect']

@@ -1,0 +1,27 @@
+GPT Answered: 
+at least 2, depending on how many arrays are being used. - Incorrect
+all of them. - Incorrect
+When passing a multi-dimensional array, all dimensions must be specified except for the first dimension. - Correct
+The first dimension is not required however the subsequent dimension(s) are needed for the compiler. - Correct
+all but the first - Correct
+All of the dimensions must be specified. - Incorrect
+Size of subsequent dimensions are required. Compiler must know how many elements to skip to move to the second element in the first dimension - Correct
+Every dimension after the first. - Correct
+both - Incorrect
+the size of the first dimension does not need to be specified, but all other dimensions do. - Correct
+when passing (in main) a multidimensional array to a function, no dimensions need be specified - Incorrect
+as many as there are dimensions. Most commonly just rows and columns - Incorrect
+at least 2, but it should always equal the number of dimensions that the argument is expecting... like... blah[][][][] will require 4 dimensional array input.blah[][][] will require a 3 dimensional array.blah[][] will require a 2 dimensional array. - Correct
+None, just pass the array name. - Incorrect
+all dimensions, excluding the first one. - Correct
+all dimensions but the first - Correct
+the first needs to be specified by size and the rest need only be stated( first like this [3] then [][][][]) - Incorrect
+one less than the number of dimensions the array contains - Correct
+not answered - Incorrect
+one - Incorrect
+two or more - Incorrect
+1 less than the total number of dimensions - Correct
+Multi dimensional arrays are accessed using more than 1  index, one for each dimension at least. - Incorrect
+
+Expected: 
+['incorrect', 'incorrect', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'incorrect', 'correct', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'correct', 'correct', 'incorrect', 'correct', 'incorrect', 'incorrect', 'incorrect', 'correct', 'incorrect']

@@ -1,0 +1,25 @@
+GPT Answered: 
+Public and private specifiers: Correct
+Public, Private, Restricted: Incorrect
+The access specifiers are public and private: Correct
+publicprivateprotected: Correct
+Public or Private: Correct
+public: the function or variable can be used outside the classprivate: the function or variable can only be used with the class: Correct
+Public and Private: Correct
+PublicPrivate: Correct
+The access-specifiers that can be used in a C++ class definition is private and public: Correct
+Private, Public, Protected, or Friend: Correct
+A C++ class definition may include access-specifiers public, private, and static: Incorrect
+local, global, local-variable, function specific: Incorrect
+public, private: Correct
+Public, protected, and private: Correct
+private, public: Correct
+public , private, protected: Correct
+public and private: Correct
+data member or data functions are access specifiers: Incorrect
+public or private: Correct
+public - can be accessed from outside the classprivate - accessible only from inside the class, not inheritedprotected - accessible only from inside the class, inherited: Correct
+public private protected: Correct
+
+Expected: 
+['correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'correct']

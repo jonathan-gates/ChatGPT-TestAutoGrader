@@ -1,0 +1,10 @@
+GPT Answered: 
+They differentiated by the compiler by the conditions/inputs used for one of the overloaded functions. - Incorrect
+not answered - Incorrect
+Overloaded functions are differentiated by their parameters. - Correct
+The number and type of its parameters. - Correct
+They have the same name, just different parameters. - Correct
+paremeters - Incorrect
+
+Expected: 
+['incorrect', 'incorrect', 'correct', 'correct', 'incorrect', 'correct']

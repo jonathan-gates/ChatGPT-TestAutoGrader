@@ -1,0 +1,9 @@
+GPT Answered: 
+Arrays are passed to functions by reference. - Correct
+Arrays are passed by reference. - Correct
+They are called by the function then the function must loop through the array to get the set of characters. - Incorrect
+specifying array name and passing as reference in an argument into the function - Correct
+The function reads the variables, stores them. then returns the what ever the variable reads. The function then prints the content of the array. - Incorrect
+
+Expected: 
+['correct', 'correct', 'incorrect', 'correct', 'incorrect']

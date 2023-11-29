@@ -1,0 +1,24 @@
+GPT Answered: 
+Each level of a generation in the tree, some people do not count the root as a generation - Incorrect
+The height of a tree is in terms of the levels of its nodes such that, if  the tree is empty its height is 0 otherwise its height is equal to the maximum level of its nodes - Correct
+The height of a tree is the number of nodes on the longest path from the root to a leaf - Incorrect
+The number of nodes on the longest path from the root of the tree to a leaf - Incorrect
+Height = the number of times you must progress down the levels of a tree to reach a leaf of the greatest distance from the root - Correct
+The height of a tree is the number of levels between the root and the leaf farthest away from it - Correct
+is the depth of its furthest leaf - Correct
+the number of nodes from root to leaf - Incorrect
+the distance from the deepest leaf to the root - Correct
+the number of generations or levels of a tree - Correct
+The intensity of the children. Say you begin with one node, That's one height. Then you add two children to that node and then two children to each of those nodes and two children to each of THOSE nodes. Your current height would be 4 - Incorrect
+The number of nodes on the longest path from the root to the leaf - Incorrect
+The height of a tree is the number of nodes on the longest path from the root to a leaf - Incorrect
+is equal to the number of levels.  levels between the root node and the terminal nodes - Correct
+the number of generations or levels the tree has - Correct
+is the number of generations in the tree - Correct
+The number of nodes on the longest path from the root to a leaf - Incorrect
+the number of distinct levels of separation - Correct
+the height of a tree is how many levels of nodes that it has - Correct
+The connections between elements are called branches. Trees are often called inverted trees because they are normally drawn with the root at the top - Incorrect
+
+Expected: 
+['incorrect', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'incorrect', 'correct', 'correct', 'correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'incorrect']

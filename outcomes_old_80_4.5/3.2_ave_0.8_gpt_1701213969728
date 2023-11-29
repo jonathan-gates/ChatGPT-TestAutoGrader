@@ -1,0 +1,15 @@
+GPT Answered: 
+A global variable is an identifier that retains it's value throughout the execution of the program. It has file scope. - Correct
+
+Global Variables can be used in any function as long as the appropriate .h file that holds the variable is included - Incorrect
+
+The entire program - Correct
+
+File scope. - Correct
+
+globally, anywhere in the program. - Correct
+
+the whole code - Correct
+
+Expected: 
+['correct', 'incorrect', 'correct', 'correct', 'correct', 'correct']

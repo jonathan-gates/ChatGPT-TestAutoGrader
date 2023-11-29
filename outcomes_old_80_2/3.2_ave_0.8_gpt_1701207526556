@@ -1,0 +1,12 @@
+GPT Answered: 
+Global variables have file scope. - Correct
+They can be accessed by any part of the program. - Incorrect
+It can be referenced by any function that follows the declarations or definitions in the source file. - Correct
+They have file scope when placed outside a function. - Correct
+Global variables all have file scope. - Correct
+variables accessible anywhere in the program, as long as they are public. - Incorrect
+File scope - Correct
+global variables have program scope (accessible anywhere in program) - Incorrect
+
+Expected: 
+['correct', 'correct', 'correct', 'correct', 'incorrect', 'correct', 'incorrect']

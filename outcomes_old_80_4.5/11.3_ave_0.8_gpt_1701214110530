@@ -1,0 +1,10 @@
+GPT Answered: 
+not answered : Incorrect
+They are initialized with a " . " (dot) between the constructor and the object being created. : Incorrect
+Constructors; default when not provided by user, or programmer specified constructors. : Correct
+<variable type> <variable name>; or, if you want to initialize a variable to a certain value, <variable type> <variable name> = <value>; : Incorrect
+objects are initialized by giving the object a type, name, and initial value : Incorrect
+obj. are initialized by the variables that call them, when they are created within a class. e.i. classname objectname etc. : Incorrect
+
+Expected: 
+['incorrect', 'incorrect', 'correct', 'incorrect', 'incorrect', 'incorrect']

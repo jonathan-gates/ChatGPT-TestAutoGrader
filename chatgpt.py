@@ -1,9 +1,8 @@
 import time
-import openai
+from openai import OpenAI
 from dotenv import load_dotenv
 import os
-# from icecream import ic
-from readdata import getData, getQuestion
+from readdata import getData, getQuestion, getSections
 import random
 
 score_type = 'ave'
@@ -12,9 +11,12 @@ score_type = 'ave'
 
 # section = '1.1'
 
-def run_section(section, score_type):
+directory = 'outcomes/'
 
-    train_percentage = 0.8
+train_percentage = 0.2
+
+# trains on 20% of the data and tests on the other 80%
+def run_section(section, score_type):
 
     data = getData(section, score_type)
     # separate the data randomly into train and test sets, 80% train and 20% test
@@ -26,15 +28,13 @@ def run_section(section, score_type):
     expected = []
     test_messages = ["Suppose a student submitted: \n"]
     for key in data:
-        if random.random() < train_percentage:
+        if random.random() <= train_percentage:
             # separate train into correct and incorrect
             if data[key] == 'correct':
                 train_correct.append((key, 'correct'))
-            else:
-                train_incorrect.append((key, 'incorrect'))
-            if data[key] == 'correct':
                 correct_messages.append(key + '\n')
             else:
+                train_incorrect.append((key, 'incorrect'))
                 incorrect_messages.append(key + '\n')
             
         else:
@@ -54,11 +54,12 @@ def run_section(section, score_type):
     api_key_env = os.getenv("API_KEY")
     org_id = os.getenv("ORG_ID")
 
-    openai.api_key = api_key_env
-    openai.organization = org_id
+    client = OpenAI(
+        api_key=api_key_env,
+        organization=org_id,
+    )
 
-    def ask_gpt():
-        response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         messages=[
             {
                 "role": "user",
@@ -66,23 +67,12 @@ def run_section(section, score_type):
             }
         ],
         model="gpt-4",
-        )
-        return response
+    )
 
-    response = ask_gpt()
-    content = response['choices'][0]['message']['content']
-
-    # ic(response)
-    # ic(content)
-    # ic(expected)
-    # ic(test)
-    # ic(test_messages)
-    # ic(correct_messages)
-    # ic(incorrect_messages)
-    # ic(prompt)
+    content = response.choices[0].message.content
 
     current_time = int(round(time.time() * 1000))
-    with open('outcomes/' + section + '_' + score_type + '_' + str(train_percentage) + "_gpt_" + str(round(current_time)), 'w') as file:
+    with open(directory + section + '_' + score_type + '_' + str(train_percentage) + "_gpt_" + str(round(current_time)), 'w') as file:
         file.write('GPT Answered: \n')
         file.write(str(content))
         file.write('\n\n')
@@ -90,12 +80,9 @@ def run_section(section, score_type):
         file.write(str(expected))
 
         
-file_names = os.listdir('data/raw')
-file_names.sort()
-file_names = file_names[:-3] # remove the last 3 files (all, answers, questions)
-file_names.sort(key=lambda x: float(x.split('.')[0]) + float(x.split('.')[1])/10) # sort by section number
-# for section in file_names:
-    # run_section(section, score_type) # call for ChatGPT
-    # time.sleep(1)
+section_names = getSections()
+
+# for section in section_names:
+#     run_section(section, score_type) # call for ChatGPT
 
 # run_section('1.1', score_type) # run just one section

@@ -1,0 +1,45 @@
+GPT Answered: 
+strings that are used in an char array are much easier to manipulate than as a string object, because each character is stored separately rather than as a whole - Incorrect
+
+By using an array of characters, one can store and manipulate the strings rather than just having a type string variable. - Incorrect
+
+type string is an array of chars that will make an array of single letter characters while an array of strings will be an actual array of words (or an array of char arrays) - Incorrect
+
+string is a class in the standard library and has method that modify it. Whereas the char array is on able to be modifie by the user. - Incorrect
+
+The data class type string are designed to handle character data, and has many functions built into the class library to deal with them. An array of characters however is subject to all the same rules of any other array with no real additional functionality. Another difference is that the string class deals with the null character implicitly, unlike an array of characters, which must handle the null character explicitly. - Correct
+
+string declared used in an array of characters contains each character in the array and a special string-termination character called the null character versus the type string. - Correct
+
+A char array reads a string as each individual character. A string literal array reads the entire string. - Incorrect
+
+Stings can only be modified by functions of the String class, an array of characters can be modified by the user - Incorrect
+
+if by type string, the array contains an additional terminating null character - Correct
+
+The array of characters has a null character \0 at the end of the array to signify the array's end.  The string does not have this. - Correct
+
+strings with type string are just that. Strings. They are not part of an array list at all where as one declared by an array is actually an array of characters able to be pointed and detected. - Incorrect
+
+the array of characters has a set length, while the type string has virtually unlimited length. - Incorrect
+
+Char array - Individual letters can be accessed directly with array subscript notation. String array - array subscript will return the entire string. - Incorrect
+
+array of characters need a termination character as well as size specification whether its explicit or implicit. - Correct
+
+when using an array individual characters can be accessed and manipulated. - Incorrect
+
+strings declared using an array of characters could result in data loss if character array not initialized large enough. - Correct
+
+an array is passed by reference therefore if an array of characters is changed, the memory is changed not just the variable - Incorrect
+
+declaring a string, it includes white spacesbut declaring a array of character does not include white spaces - Incorrect
+
+cant modify individual characters of a type string array, character type array can modify individual characters - Incorrect
+
+the type string is a class and is safer, while the other is just an array of characters. - Incorrect
+
+array  it is the collection of similar data types ex:int a[10]ten indicates the size of array. [ ] is index of array, we can give only integer values to array of a.where as string mean collection of group of characters. string declarations have a datatype usually causes storage to be allocated in memory that is capable of holding some predetermined number of symbols.  However  Arrays can be declared to contain values of any non reference data type. Multiple arrarys of the same type - Incorrect
+
+Expected: 
+['incorrect', 'incorrect', 'incorrect', 'incorrect', 'correct', 'correct', 'incorrect', 'incorrect', 'incorrect', 'correct', 'incorrect', 'incorrect', 'incorrect', 'correct', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect']

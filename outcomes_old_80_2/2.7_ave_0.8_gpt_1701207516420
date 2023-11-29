@@ -1,0 +1,17 @@
+GPT Answered: 
+the header file has access to the C++ Standard Library and makes certain classes like class string work. - Incorrect
+
+create a common area to contain reusable functions. - Correct
+
+to declare the functions being used in the classes - Correct
+
+A header file is a cross communication method between source files, to help limit the size of each individual program. Without header files a program will be 1 large lump of code and thus fairly hard to debug and traverse. - Incorrect
+
+to separate the source code from the main function allows the methods/classes to be included in the program without direct coding. allows re-usability. - Correct
+
+Header files have reusable source code in a file that a programmer can use. - Correct
+
+To hide the definition and details of a class. Also to help readability of the main C++ file. - Incorrect
+
+Expected: 
+['incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect']

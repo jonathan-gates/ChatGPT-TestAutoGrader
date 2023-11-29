@@ -1,0 +1,26 @@
+GPT Answered: 
+Linked lists are passed as arguments to a function by passing the head pointer of the list by reference. - Correct
+- A function with access to a linked list's head pointer has access to the entire list. - Correct
+Pass the head ponter to a function as a reference argument. - Correct
+By using a node. - Incorrect
+Pass-by-reference - Correct
+you send a pointer to an object of the LinkedList class - Incorrect
+Passing the head pointer of a linked list to a function gives that function access to all nodes of that linked list - Correct
+You have to pass the head pointer to a function since it has access to the entire list. - Correct
+You pass the head pointer to a function as a reference argument. - Correct
+not answered - Incorrect
+passes a pointer to a linked list object - Incorrect
+The linked list object contains the head, through which the other elements are accessible. - Incorrect
+By the head of the list. It takes the head address and traverses from there on in. - Incorrect
+as a pointer node. - Incorrect
+A function with access to a linked list's head pointer has access to the entire list. Pass the head pointer to a function as a reference argument - Correct
+the head pointer is passed to a function as a reference argument. - Correct
+the pointer to the first element is passed to a function - Incorrect
+Pass the head pointer to a function as a reference argument - Correct
+By passing the head pointer and going through the list as needed inside the function. - Correct
+linked lists are passed by using pointers - Incorrect
+the head object is passed to the function - Incorrect
+Linked lists permit insertion and removal of nodes at any point in the list in constant time,[1] but do not allow random access. - Incorrect
+
+Expected: 
+['correct', 'correct', 'incorrect', 'correct', 'incorrect', 'incorrect', 'incorrect', 'correct', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'incorrect', 'correct', 'correct', 'incorrect', 'correct', 'incorrect', 'incorrect', 'incorrect', 'incorrect']
